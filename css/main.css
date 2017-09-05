@@ -1,0 +1,34 @@
+/* universal slector*/
+*{
+	font-family: 'Noto Serif', serif;
+padding: 0;
+margin:0;
+outline: none;
+}
+body {
+
+	text-align: center;
+}
+body input{
+	padding:10px ;
+	margin-right: 20px;
+	width: 30%;
+}
+h1{
+	padding: 20px;
+}
+#btn {
+	padding: 10px;
+	width: 15%;
+	background-color: grey;
+}
+
+ul {
+	list-style: none;
+	float: left;
+	background:#eee;
+	border: 1px solid black;
+	margin: 10px;
+	width: 100%;
+	padding: 20px;
+}
