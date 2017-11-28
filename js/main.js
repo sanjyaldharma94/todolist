@@ -8,7 +8,6 @@
 		todo: document.getElementById('todo'),
 		done: document.getElementById('done')
 	};
-//console.log(input, btn, lists);
 //creating a function to create a list to push in the list
   var makeTaskHtml = function(str){
 
@@ -34,7 +33,7 @@ var onCheck = function(event){
   var list = task.parentElement.id;
  
   lists[list === 'done' ? 'todo' : 'done'].appendChild(task);
-   this.checked = false;
+   this.checked = true;
 };
 
 input.focus();
